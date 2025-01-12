@@ -10,7 +10,7 @@ def add_element(
 
 if __name__ == '__main__':
     value1 = add_element("test")
-    print(value1, )
+    print(value1)
     value2 = add_element(["test2", "test3"])
     print(value2)
     value3 = add_element(["test4"], value2)
