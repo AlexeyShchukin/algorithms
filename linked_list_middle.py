@@ -16,8 +16,3 @@ class Solution:
             else:
                 break
         return slow_pointer
-
-
-
-
-
