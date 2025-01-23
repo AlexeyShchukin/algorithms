@@ -17,6 +17,6 @@ class Solution:
         while head:
             new_head = head.next
             head.next = next_node
-            node = head
+            next_node = head
             head = new_head
         return next_node
