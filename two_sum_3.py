@@ -3,6 +3,9 @@
 
 
 def two_sum(nums, target):
+    if not nums:
+        return []
+
     left = 0
     right = len(nums) - 1
     res = [nums[left], nums[right]]
@@ -23,3 +26,6 @@ def two_sum(nums, target):
 
 
 print(two_sum(nums=[-10, -5, -2, 2, 2, 11, 13, 15], target=9))
+print(two_sum([], 5))
+print(two_sum(nums=[1, 5, 10, 15, 20], target=16))
+print(two_sum(nums=[1, 3, 5, 8, 12, 15], target=10))
